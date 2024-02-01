@@ -14,14 +14,16 @@ const Home = () => {
                     I have x many years of working blah blah. Currently, I love working on web applications using technologies like
                     React, Tailwind, Next JS, etc.
                 </p>
-                <div className='text-white'>
-                    <button>
+
+                <div>
+                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-fuchsia-950 to-fuchsia-500 cursor-pointer'>
                         Portfolio
-                        <span>
-                            <MdOutlineKeyboardArrowRight/>
+                        <span className='group-hover:rotate-90 duration-300'>
+                            <MdOutlineKeyboardArrowRight size={25}/>
                         </span>
                     </button>
                 </div>
+
             </div>
             <div>
                 <img src={HeroImage} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
